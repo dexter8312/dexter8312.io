@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    
+}
+
+.main
+{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url("1.jpg");
+    background-position: center;
+    background-size: contain;
+    height: 130vh;
+
+
+    
+}
+
+
+.navbar{
+    width: 1200px;
+    height: 100px;
+    margin-top: 1px 10px;
+    background-color: #dbe6ea;
+    background-color: transparent;
+    background-position: initial;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    
+}
+
+.logo{
+    color: #ffff;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 40px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #d7d30c;
+}
+
+.box{
+    width: 100%;
+    float: left;
+    margin-top: 55px;
+
+}
+.box h1{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+.box h1:hover{
+    color: #d7d30c;
+}
+.box p{
+    width: 100%;
+    text-align: center;
+    margin-top: 18px;
+    font-size: 30px;
+    color: #fff;
+}
+.box p:hover{
+    color: #d7d30c;
+}
